@@ -21,6 +21,7 @@
 		B0ED717A1885FC0400C6123F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0ED715C1885FC0400C6123F /* UIKit.framework */; };
 		B0ED71821885FC0400C6123F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0ED71801885FC0400C6123F /* InfoPlist.strings */; };
 		B0ED71841885FC0400C6123F /* TestSpeed1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED71831885FC0400C6123F /* TestSpeed1Tests.m */; };
+		B0ED718F1885FD5A00C6123F /* MyCustomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED718E1885FD5A00C6123F /* MyCustomCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B0ED717F1885FC0400C6123F /* TestSpeed1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSpeed1Tests-Info.plist"; sourceTree = "<group>"; };
 		B0ED71811885FC0400C6123F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0ED71831885FC0400C6123F /* TestSpeed1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSpeed1Tests.m; sourceTree = "<group>"; };
+		B0ED718D1885FD5A00C6123F /* MyCustomCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomCollectionView.h; sourceTree = "<group>"; };
+		B0ED718E1885FD5A00C6123F /* MyCustomCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				B0ED716E1885FC0400C6123F /* ViewController.m */,
 				B0ED71701885FC0400C6123F /* Images.xcassets */,
 				B0ED715F1885FC0400C6123F /* Supporting Files */,
+				B0ED718D1885FD5A00C6123F /* MyCustomCollectionView.h */,
+				B0ED718E1885FD5A00C6123F /* MyCustomCollectionView.m */,
 			);
 			path = TestSpeed1;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				B0ED716F1885FC0400C6123F /* ViewController.m in Sources */,
 				B0ED71691885FC0400C6123F /* AppDelegate.m in Sources */,
 				B0ED71651885FC0400C6123F /* main.m in Sources */,
+				B0ED718F1885FD5A00C6123F /* MyCustomCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
